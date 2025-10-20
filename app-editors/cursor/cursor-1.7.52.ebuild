@@ -14,10 +14,10 @@ DESCRIPTION="Cursor App - AI-first coding environment"
 HOMEPAGE="https://www.cursor.com/"
 SRC_URI="
 amd64? (
-https://downloads.cursor.com/production/$\{BUILD_ID\}/linux/x64/Cursor-$\{PV\}-x86_64.AppImage -> ${P}-amd64.AppImage
+https://downloads.cursor.com/production/${BUILD_ID}/linux/x64/Cursor-${PV}-x86_64.AppImage -> ${P}-amd64.AppImage
 )
 arm64? (
-https://downloads.cursor.com/production/$\{BUILD_ID\}/linux/arm64/Cursor-$\{PV\}-aarch64.AppImage -> ${P}-arm64.AppImage
+https://downloads.cursor.com/production/${BUILD_ID}/linux/arm64/Cursor-${PV}-aarch64.AppImage -> ${P}-arm64.AppImage
 )
 "
 S="${WORKDIR}"
