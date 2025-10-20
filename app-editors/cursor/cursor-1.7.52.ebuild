@@ -9,17 +9,15 @@ sv sw ta te th tr uk ur vi zh-CN zh-TW"
 
 inherit chromium-2 desktop pax-utils unpacker xdg optfeature shell-completion
 
-# Note: BUILD_ID may need to be updated for each version
-# Check: https://downloads.cursor.com/production/
-BUILD_ID="b68c67e6c069aa50d0cfa83758c50b7669a068d87755d88ebf36606d15c238ab"
+BUILD_ID="9675251a06b1314d50ff34b0cbe5109b78f848cd"
 DESCRIPTION="Cursor App - AI-first coding environment"
 HOMEPAGE="https://www.cursor.com/"
 SRC_URI="
 amd64? (
-https://downloader.cursor.sh/builds/$\{BUILD_ID\}/linux/appImage/x64 -> ${P}-amd64.AppImage
+https://downloads.cursor.com/production/$\{BUILD_ID\}/linux/x64/Cursor-$\{PV\}-x86_64.AppImage -> ${P}-amd64.AppImage
 )
 arm64? (
-https://downloader.cursor.sh/builds/$\{BUILD_ID\}/linux/appImage/arm64 -> ${P}-arm64.AppImage
+https://downloads.cursor.com/production/$\{BUILD_ID\}/linux/arm64/Cursor-$\{PV\}-aarch64.AppImage -> ${P}-arm64.AppImage
 )
 "
 S="${WORKDIR}"
