@@ -1,6 +1,8 @@
-# Contributing to cursor-overlay
+# Contributing Guide
 
-Thank you for your interest in contributing!
+**English** | [繁體中文](CONTRIBUTING_zh-TW.md)
+
+Thank you for considering contributing to Cursor Overlay! This document provides guidelines for the contribution process and best practices.
 
 ## How to Contribute
 
