@@ -1,0 +1,17 @@
+# Portage metadata
+**/Manifest
+*.digest
+
+# Editor files
+*.swp
+*.swo
+*~
+.*.sw?
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

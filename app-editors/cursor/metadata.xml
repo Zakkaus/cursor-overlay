@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>zakkaus@example.com</email>
+		<name>Zakkaus</name>
+	</maintainer>
+	<longdescription>
+		Cursor is an AI-first code editor built on VS Code. It features AI-powered code completion,
+		chat, and code generation capabilities.
+	</longdescription>
+	<use>
+		<flag name="egl">Enable EGL support for better graphics performance</flag>
+		<flag name="kerberos">Enable Kerberos authentication support</flag>
+		<flag name="wayland">Enable Wayland support for native Wayland compositors</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">getcursor/cursor</remote-id>
+		<bugs-to>https://github.com/Zakkaus/cursor-overlay/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
